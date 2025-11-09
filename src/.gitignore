@@ -1,0 +1,108 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment files (do NOT commit secrets)
+.env
+.env.*
+
+# Local envs and secrets
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Build/test output
+coverage/
+.turbo/
+.parcel-cache/
+.cache/
+dist/
+
+# Typescript
+*.tsbuildinfo
+
+# Optional: include lockfiles (recommended to commit)
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
+
+# Ignore sensitive local keys or debug credentials
+*.secret
+
+# Optional: large media or dataset folders (uncomment if used locally)
+# media/
+# assets-large/
+
+# Ignore generated storybook build
+storybook-static/
+
+# Ignore temporary files
+*.log
+*.tmp
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env.local
+.env.*.local
+
+# Next.js
+.next/
+out/
+.next/cache
+
+# Production
+/build
+/dist
+
+# VSCode
+.vscode/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# logs
+logs/
+*.log
+npm-debug.log*
+node-debug.log*
+
+# local env
+.env
+
+# mac
+.DS_Store
+
+# windows
+Thumbs.db
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
